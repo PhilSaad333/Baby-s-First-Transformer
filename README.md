@@ -1,4 +1,4 @@
-# Baby's-First-Transformer - a simple decoder-only transformer model
+# Baby's First Transformer: a simple decoder-only transformer model
 
 ## Overview:
 
