@@ -35,3 +35,4 @@ Some parts of the code were basically completely written by AI (Claude), and oth
 - `Model.py`: Defines the model architecture
 - `TrainingLoopCPUGPU.py`: Contains training functions for CPU/GPU
 - `TrainingLoopTPU.py`: Contains training functions for TPU (commented out in the main file, I only have this because I was using the Google Colab TPU)
+- `UseModel.py`: Contains the function for generating text, given an initial prompt.
