@@ -6,7 +6,7 @@ This is my attempt at a simple decoder-only transformer model, trained on text8 
 
 Rather than converting single characters or words to tokens, we specify some NGRAM_LENGTH and NUM_NGRAMS, and the tokenizer uses the NUM_NGRAMS most common NGRAM_LENGTH-grams as tokens, as well as single characters. This is probably not the most optimal thing as implemented, I just did this for practice.
 
-Some parts of the code were basically completely written by AI (Claude), and others partially or at least assisted, especially where I was worried my own version was pretty suboptimal and would be slow. I've tried to indicated with comments which parts I didn't do much of myself.
+Some parts of the code were basically completely written by AI (Claude), and others partially or at least assisted, especially when previous versions of these sections, written by myself, seemed to be running poorly/slowly. I've tried to indicated with comments which parts I didn't do much of myself.
 
 ## Dependencies:
 - Python 3.7+
